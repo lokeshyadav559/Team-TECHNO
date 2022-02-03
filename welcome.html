@@ -3,20 +3,34 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
- p{
-  text-align: center;
-  font-size: 60px;
-  height: 100%;
-  width: 100%;
-  background-color: inherit;
-  background-image: url(https://picsum.photos/200/500);
-  background-position: center;
-  position: relative;
+   .menu-bar {
+     background-color: #1988f7;
+     display: flex;
+     justify-content: space-between;
+     box-sizing: border-box;
+   }
+
+   .item {
+     color: white;
+     background-color: transparent;
+     font-size: 18px;
+     display: inline-block;
+     box-sizing: border-box;
+     padding: 14px 20px;
+   }
+
+   .item.title {
+     font-weight: 600;
+   }
+
+   .item:hover {
+     background-color: rgba(0, 0, 0, 0.1);
+   }
 }
 </style>
 </head>
 <body>
-<p id="demo"></p>
+
 
 </body>
 </html>
